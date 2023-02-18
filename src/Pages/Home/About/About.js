@@ -10,7 +10,7 @@ const About = () => {
           <img src={parts} className="absolute w-3/5 right-5 top-1/2 rounded-lg shadow-2xl border-8" alt=""/>
         </div>
         <div className='w-1/2'>
-          <p className='text-2xl text-orange-500 my-5'>About Us</p>
+          <p className='text-2xl text-orange-500 my-5 font-bold'>About Us</p>
           <h1 className="text-5xl font-bold">We are qualified <br />
            & of experience <br />
            in this field</h1>
