@@ -3,14 +3,14 @@ import parts from "../../../assets/images/about_us/parts.jpg";
 
 const About = () => {
   return (
-    <div className="hero min-h-screen ">
+    <div className="hero my-20">
       <div className="hero-content flex-col lg:flex-row">
         <div className='relative w-1/2'>
           <img src={person} className="w-4/5 h-full rounded-lg shadow-2xl" alt=""/>
           <img src={parts} className="absolute w-3/5 right-5 top-1/2 rounded-lg shadow-2xl border-8" alt=""/>
         </div>
         <div className='w-1/2'>
-          <p className='text-2xl text-orange-500'>About Us</p>
+          <p className='text-2xl text-orange-500 my-5'>About Us</p>
           <h1 className="text-5xl font-bold">We are qualified <br />
            & of experience <br />
            in this field</h1>
