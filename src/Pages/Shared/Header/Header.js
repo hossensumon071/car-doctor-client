@@ -5,6 +5,10 @@ const Header = () => {
 
   const menuItems = <>
     <li className="font-semibold"><Link to="/">Home</Link></li>
+    <li className="font-semibold"><Link to="/">About</Link></li>
+    <li className="font-semibold"><Link to="/">Services</Link></li>
+    <li className="font-semibold"><Link to="/">Blog</Link></li>
+    <li className="font-semibold"><Link to="/">Contact</Link></li>
   </>
   return (
     <div className="navbar bg-base-100 h-20 pt-12 mb-12">
